@@ -114,13 +114,32 @@
 }
 .section-2{
     width: 100%;
-    height: auto;
+    height: 680px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    flex-direction: column;
+    /* background-color: black; */
+    background-color: white;
 }
-.background{
+.section-2 img{
+    width: 700px;
+}
+.section-2 button{
+    width: 400px;
+    height: 58px;
+    border: none;
+    background-color: #A84541;
+    color: white;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 650;
+    cursor: pointer;
+}
+.section-2 button:hover{
+    background-color: #44484E;
+}
+/* .background{
     width: 78%;
     height:580px ;
     background-image: url(./images/back2.jpg);
@@ -144,7 +163,7 @@
 }
 .background button:hover{
     background-color: #3C2A00;
-}
+} */
 .section-3{
     width: 100%;
     height: 650px;
@@ -268,7 +287,7 @@
 }
 .section-5{
     width: 100%;
-    height: 220px;
+    height: 240px;
     background-color: #A84541;
     display: flex;
     align-items: center;
@@ -565,11 +584,11 @@
         display: none;
     }
     .navbar2 img{
-        width: 250px;
+        width: 220px;
     }
     .navbar2 span{
         display: inline;
-        width: 15%;
+        width: 19%;
     }
     .navbar2 span a{
         color:#9EA0A4;
@@ -582,6 +601,17 @@
         width: 100%;
         height: auto;
         padding-inline: 15px;
+        padding-block: 34px;
+    }
+    .section-2 img{
+        width: 100%;
+        height: auto;
+    }
+    .section-2 button{
+        width: 82%;
+        height: 54px;
+        font-size: 15px;
+        font-weight: 550;
     }
     .background{
         width: 100%;
@@ -630,10 +660,10 @@
         width: 100%;
         height: 260px;
         margin-top: 50px;
-        padding-inline: 40px;
+        padding-inline: 30px;
     }
     .section-5 h3{
-        font-size: 24px;
+        font-size: 22px;
         text-align: center;
     }
     .section-6{
